@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+<body>
+  <h1 id="title">freeCodeCamp Survey</h1>
+  <p id="description">Thank you for taking time to fill out this survey</p>
+  <form id="survey-form">
+      <label id="name-label">Name<input id="name" type="text" placeholder="Enter your full name" required></label>
+      <label id="email-label">Email<input id="email" type="email" placeholder="Enter your email address" required></label>
+      <label id="number-label">Age<input id="number" type="number" min="13" max="120" placeholder="Age"></label>
+    <p id="role">What is your current role</p>
+      <select id="dropdown">
+        <option>Student</option>
+        <option>Employed</option>
+      </select>
+    <p id="recommend">Would you recommend freeCodeCamp to your friends</p>
+      <label id="Definitely">Definitely<input type="radio" name="rating" value="1" Checked></label>
+      <label id="Maybe">Maybe<input type="radio" name="rating" value="2">
+      <label id="Never">Never<input type="radio" name="rating" value="3"></label>
+    <p id="opinion">What was your favorite curriculum?</p>
+      <label id="Front-End-Development">Front End Development<input type="checkbox" value="1"></label>
+      <label id="Back-End-Development">Back-End-Development<input type="checkbox" value="2"></label>
+    <p id="comments">Share with us your thoughts and opinions!</p>
+      <textarea id="comment" rows="10" cols="30" placeholder="Enter your comment here"></textarea>
+      <br>
+      <button id="submit">Submit</button>
+  </form>
+</body>
+</html>
